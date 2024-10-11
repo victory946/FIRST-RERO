@@ -1,0 +1,35 @@
+img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+body {
+  margin: 10px;
+  border: 10px;
+  padding: 50px;
+  cursor: url("./images/plus-outline.png"), pointer;
+}
+/* 
+p, h3, a {
+  color: blueviolet;
+  font-size: 30px;
+} */
+#navbar {
+  background-color: #ededed;
+  padding: 20px;
+}
+
+.navlink {
+  color: black;
+  cursor: url("./images/plus-outline.png"), pointer;
+}
+
+#estimate {
+  border: 1px solid black;
+  border-radius: 20px;
+  color: #fd4601;
+  background-color: #ededed;
+  padding: 10px 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
