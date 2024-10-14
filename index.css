@@ -4,9 +4,7 @@ img {
 }
 
 body {
-  margin: 10px;
-  border: 10px;
-  padding: 50px;
+  margin: 0;
   cursor: url("./images/plus-outline.png"), pointer;
 }
 /* 
@@ -21,7 +19,15 @@ p, h3, a {
 
 .navlink {
   color: black;
+  text-decoration: none;
   cursor: url("./images/plus-outline.png"), pointer;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+.navlink:hover {
+  text-decoration: underline;
+  font-weight: 600;
 }
 
 #estimate {
@@ -32,4 +38,31 @@ p, h3, a {
   padding: 10px 18px;
   text-transform: uppercase;
   font-weight: bold;
+}
+
+#estimate:hover {
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+/* descendent combinator */
+/* .box h2{
+  color: red;
+} */
+
+/* child combinator */
+.box > p {
+  color: blue;
+}
+
+.box + p {
+  color: green;
+  font-size: 30px;
+}
+
+#text {
+  text-align: justify;
+  line-height: 40px;
+  word-spacing: 5px;
+  letter-spacing: 2px;
 }
