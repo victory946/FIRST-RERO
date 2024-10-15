@@ -15,6 +15,24 @@ p, h3, a {
 #navbar {
   background-color: #ededed;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+
+.right > div {
+  display: flex;
+  gap: 20px;
 }
 
 .navlink {
@@ -65,4 +83,48 @@ p, h3, a {
   line-height: 40px;
   word-spacing: 5px;
   letter-spacing: 2px;
+}
+
+.box1 {
+  background-color: red;
+  height: 3rem;
+  width: 3rem;
+  /* display: inline-block; */
+}
+
+.box2 {
+  background-color: yellow;
+  height: 3rem;
+  width: 3rem;
+  /* display: inline-block; */
+}
+
+.box3 {
+  background-color: blue;
+  height: 4rem;
+  width: 3rem;
+  /* display: inline-block; */
+}
+
+.flexbox {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  flex-wrap: nowrap;
+  width: 30vw;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.flexbox1 {
+  background-color: orangered;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
 }
